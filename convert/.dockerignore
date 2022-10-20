@@ -1,0 +1,10 @@
+# Warn: this .dockerignore file is used to generate development and production image
+# It is not specially optimized for the production version
+
+# exclude everything
+*
+
+# then include
+!index.*js
+!package.json
+!test
